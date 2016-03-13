@@ -1,0 +1,3 @@
+drop pdfs in here
+run ./buildWorkFiles.sh to rebuild all output files
+
