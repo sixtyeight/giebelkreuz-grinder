@@ -22,7 +22,7 @@ import org.apache.commons.lang3.StringUtils;
 public class GkgApp {
 	public static void main(String[] args) throws Exception {
 		String workDir = System.getProperty("grinder.workdir",
-				"/home/m68k/Downloads/raiffeisen_grinder/work/");
+				"/home/m68k/git/giebelkreuz-grinder/gkg_pdf_to_text/work");
 
 		List<String> lines = IOUtils.readLines(new FileInputStream(new File(
 				workDir + "/_compacted_complete.txt")));
